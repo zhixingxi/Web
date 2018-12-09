@@ -3,7 +3,7 @@ body{
     color: #666;
     font-size: 12px;
 }
-
+/* 顶部状态条样式 */
 .header_back{
     height: 29px;
     background-color: #f7f7f7;
