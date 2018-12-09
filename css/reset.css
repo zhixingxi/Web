@@ -1,0 +1,42 @@
+/* 将标签默认间距设置为0 */
+body,ul,p,h1,h2,h3,h4,h5,h6,dl,dd,input,select,form{
+    margin: 0; padding: 0;
+}
+/* 去掉 h 标签默认的字体大小，可以在 body 中统一设置 */
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+}
+/* 去掉默认的项目图标 */
+ul{
+    list-style: none;
+}
+/* em里面的文字是斜体，这样设置之后就是正常的 */
+em{
+    font-style: normal;
+}
+/* a 标签默认有下划线，去掉 */
+a{
+    text-decoration: none;
+}
+/* 去掉 IE 图片作链接时产生的边框 */
+img{
+    border: none;
+}
+/* 清除margin-top 塌陷和清除浮动 */
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}

@@ -1,0 +1,31 @@
+body{
+    font-family: 'Microsoft Yahei';
+    color: #666;
+    font-size: 12px;
+}
+
+.header_back{
+    height: 29px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+
+.header{
+    width: 1200px;
+    height: 29px;
+    margin: 0 auto;
+}
+
+.welcome{
+    font: 12px/29px 'Microsoft Yahei';
+    color: #666666;
+}
+
+.user_login_link,.user_welcome,.user_shopping{
+    height: 29px;
+    line-height: 29px;
+}
+
+.user_login_link a,.user_shopping a{
+    color: #666;
+}
