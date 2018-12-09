@@ -29,3 +29,20 @@ body{
 .user_login_link a,.user_shopping a{
     color: #666;
 }
+
+.user_login_link a:hover, .user_shopping a:hover{
+    color: #ff8800;
+}
+
+.user_login_link span,.user_shopping span{
+    margin: 0 15px;
+    color: #cecece;
+}
+
+.user_welcome{
+    display: none;
+}
+
+.user_welcome em{
+    color: #ff8800;
+} 
