@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>学习CSS</title>
+    <style>
+        #rcorners1{
+            width: 200px;
+            height: 150px;
+            background-color: blueviolet;
+            border-radius: 20px;
+            border-color: bisque;
+            padding: 10px;
+            margin: 5px;
+        }
+        #rcorners2{
+            width: 200px;
+            height: 150px;
+            padding: 20px;
+            border-radius: 15px;
+            border: 5px solid #88aacc;
+            margin: 15px 5px;
+            background-color: blueviolet;
+        }
+        .rcorners3{
+            width: 200px;
+            height: 150px;
+            padding: 10px;
+            background: url(apple_swift_logo.jpg);
+            background-position: center center;
+            background-size: 200px 150px;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+        }
+        .grad{
+            height: 100px;
+            background: radial-gradient(red, green, blue);
+        }
+
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <p id=rcorners1>圆角</p>
+    <p id=rcorners2>圆角2</p>
+    <p class=rcorners3>背景图片</p>
+    <div class="grad">渐变</div>
+    <p></p>
+    <img src="apple_swift_logo.jpg" alt="Swift">
+</body>
+</html>
