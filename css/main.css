@@ -28,6 +28,7 @@ body{
 
 .user_login_link a,.user_shopping a{
     color: #666;
+    background-color: #ffffff
 }
 
 .user_login_link a:hover, .user_shopping a:hover{
